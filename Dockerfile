@@ -1,4 +1,4 @@
-from python:3.9-alpine
+from python:3.13-alpine
 run apk add --no-cache build-base ninja cmake git ccache
 run mkdir /out
 add --chmod=555 run-build.sh /app/run
